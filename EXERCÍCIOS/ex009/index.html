@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho com Links</title>
+</head>
+<body>
+    <h1>Usando Links Externos</h1>
+    <p>Você pode entrar no <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público do Guanabara no GitHub</a></p> <!--A tag "target=_blank" faz com q o link abra em OUTRA ABA. A tag "rel=external" avisa pro google que ele é site externo-->
+
+    <p>Você também pode acerssar o canal dele no <a href="https://www.youtube.com/cursoemvideo">youtube</a></p>
+    <h2>Usando links Internos</h2>
+    <p>Esta é a primeira página do site. <a href="pag002.html" rel="next">Clique aqui para saber mais.</a></p> <!--ctrl + espaço abre a seleção de páginas contidas na pasta-->
+    <h3>Caso específico de "não dar aval ao site</h3>
+    <p>Informações coletadas do <a href="https://www.uol.com.br/" target="_blank" rel="nofolow">jornal da uol</a></p> <!--a tag "nofolow" atribui o sentido de "sem aval".-->
+    <p>Para mais notícias, <a href="noticias/pag003.html" target="_self">clique aqui!</a></p> <!--Criar o caminho até a página quando utilizar o ctrl+ espaço--> <!--o target="_self" faz com que abra o link sem criar outras abas (abre em sí mesmo)-->
+
+    <h1>Links para downloads</h1>
+    <ul>
+        <li><a href="livro/exame-sabin.pdf" download="exame-sabin.pdf" type="application/pdf">Baixar livros em PDF</a></li>
+        <li><a href="livro/exame-sabin.zip" download="exame-sabin.pdf" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>
